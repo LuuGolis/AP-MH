@@ -66,7 +66,13 @@ a:hover{
     background-color: #FC7300;
 }
 
-h2, h3 {
+h2 {
+    padding-top: 1rem;
+    text-align: center;
+
+}
+h3{
+    padding-bottom: 4rem;
     text-align: center;
 }
 
@@ -84,12 +90,11 @@ p{
 }
 footer{
     background-color: #FFD4B2;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 
-div{
+.tabla{
     display: flex;
     justify-content: center;
     text-align: center;
@@ -104,5 +109,11 @@ td{
 }
 th{
     padding: 0.5rem;
+}
+li{
+    padding: 0.3rem;
+}
+ol,ul{
+    padding: 1rem;
 }
 
