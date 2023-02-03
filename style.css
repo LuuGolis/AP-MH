@@ -70,22 +70,39 @@ h2, h3 {
     text-align: center;
 }
 
-div{
+section{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding: 3rem;
 }
 article{
     padding-top: 1rem;
+}
+p{
+    padding-top: 0.5rem;
 }
 footer{
     background-color: #FFD4B2;
     display: flex;
     justify-content: center;
 }
-th{
-    background-color: #1F8A70;
+
+
+div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
 }
+table{
+    table-layout: fixed;
+}
+
 td{
-    background-color: #FC7300;
+    padding: 0.8rem;
 }
+th{
+    padding: 0.5rem;
+}
+
