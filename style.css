@@ -27,9 +27,10 @@ header img {
     height: 100%;
 
 }
-.logo{
-        height: 80px;
-        width: 80px;
+
+.logo {
+    height: 80px;
+    width: 80px;
 
 }
 
@@ -42,14 +43,15 @@ nav {
     justify-content: center;
     align-items: center;
     background-color: #86C8BC;
-    
+
 }
+
 nav a {
     text-decoration: none;
     text-align: center;
     padding: 0.5rem;
     color: white;
-    background-color:#00425a;
+    background-color: #00425a;
     border: 1px solid black;
     border-radius: 0.5rem;
     width: 8rem;
@@ -57,11 +59,12 @@ nav a {
 
 }
 
-a:hover{
+a:hover {
     transform: scale(1.0) rotate(0deg);
     color: #BFDB38;
     background-color: #1F8A70;
 }
+
 .active {
     background-color: #FC7300;
 }
@@ -71,49 +74,61 @@ h2 {
     text-align: center;
 
 }
-h3{
+
+h3 {
     padding-bottom: 4rem;
     text-align: center;
 }
 
-section{
+section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 3rem;
 }
-article{
+
+article {
     padding-top: 1rem;
 }
-p{
+
+p {
     padding-top: 0.5rem;
 }
-footer{
+
+footer {
     background-color: #FFD4B2;
     text-align: center;
 }
 
 
-.tabla{
+.tabla {
     display: flex;
     justify-content: center;
     text-align: center;
     padding: 2rem;
 }
-table{
+
+table {
     table-layout: fixed;
 }
 
-td{
+td {
     padding: 0.8rem;
 }
-th{
+
+th {
     padding: 0.5rem;
 }
-li{
+
+li {
     padding: 0.3rem;
 }
-ol,ul{
+
+ol,
+ul {
     padding: 1rem;
 }
 
+.espacio {
+    padding-right: 8rem;
+}
