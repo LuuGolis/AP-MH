@@ -69,8 +69,9 @@ a:hover {
     background-color: #FC7300;
 }
 
+
 h2 {
-    padding-top: 1rem;
+    padding: 1rem;
     text-align: center;
 
 }
@@ -85,6 +86,19 @@ section {
     flex-direction: column;
     justify-content: center;
     padding: 3rem;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+main img {
+    height: 200px;
+    width: 200px;
+    padding: 1rem;
+    border-radius: 50%;
 }
 
 article {
@@ -131,4 +145,67 @@ ul {
 
 .espacio {
     padding-right: 8rem;
+}
+
+form {
+    border: 2px solid #00425a;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 0.2rem;
+}
+
+fieldset {
+    padding: 1rem;
+    border: none;
+}
+
+
+label {
+    padding: 0.8rem;
+    gap: 1rem;
+}
+
+form p,
+h4,
+h5 {
+    padding: 1rem;
+}
+
+form h2 {
+    padding: 1rem;
+}
+
+form select {
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.btn {
+    padding: 1rem;
+    border-radius: 5rem;
+    border-color: white;
+    font-size: large;
+    background-color: #f9811e;
+}
+
+iframe {
+    border-radius: 1rem;
+    border: 2px solid white;
+    margin: 1rem;
+}
+
+.mapas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+}
+
+aside img {
+    height: 200px;
+    width: 200px;
 }
