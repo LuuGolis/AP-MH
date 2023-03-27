@@ -1,5 +1,5 @@
 * {
-    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    font-family: 'Helvetica', 'sans-serif';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,30 +8,30 @@
 body {
     width: 100%;
     height: 100%;
-    background-color: #CEEDC7;
+    background-color: #8DB596;
 }
 
-header {
+header {    
     min-height: 10vh;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
     align-items: center;
-    padding: 1rem;
     gap: 1rem;
-    background-color: #86C8BC;
-}
-
-header img {
-    width: 100%;
-    height: 100%;
-
+    background-color: #8DB596;
+    position: sticky;
 }
 
 .logo {
-    height: 80px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
+    padding: 0.5 rem;
+}
 
+nav img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10 px;
 }
 
 nav {
@@ -42,8 +42,7 @@ nav {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: #86C8BC;
-
+    background-color: #92817A;
 }
 
 nav a {
@@ -69,6 +68,9 @@ a:hover {
     background-color: #FC7300;
 }
 
+h1{
+    font-family: 'Stencil Std', 'fantasy';
+}
 
 h2 {
     padding-top: 0.5rem;
@@ -110,7 +112,7 @@ p {
 }
 
 footer {
-    background-color: #FFD4B2;
+    background-color: #665A48;
     text-align: center;
 }
 
