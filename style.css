@@ -11,7 +11,7 @@ body {
     background-color: #F0EBE3;
 }
 
-header {    
+header {
     min-height: 10vh;
     display: flex;
     justify-content: flex-start;
@@ -59,17 +59,22 @@ nav a {
 }
 
 a:hover {
-    transform: scale(1.0) rotate(0deg);
+    transform: scale(1.1) rotate(0deg);
+    padding: 0.5rem;
+    border: solid 2px #7F7C82;
     background-color: #11324D;
+    
 }
 
 .active {
     background-color: #064420;
 }
 
-h1{
+h1 {
     font-family: 'Stencil Std', 'fantasy';
     text-align: center;
+    margin-bottom: 1rem;
+
 }
 
 h2 {
@@ -86,7 +91,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 main {
@@ -103,7 +108,7 @@ main img {
 }
 
 p {
-    padding-top: 0.5rem;
+    padding-top: 0.2rem;
 }
 
 footer {
@@ -170,14 +175,30 @@ h5 {
     padding: 1rem;
 }
 
-article{
-    border-bottom: dashed 1px #00425a;
+article {
     padding-top: 1rem;
+
 }
 
-article p{
+article p {
     padding-left: 3rem;
+    padding-right: 1rem;
     padding-bottom: 2rem;
+}
+
+#index {
+    width: 100vh
+}
+
+#about {
+    margin-right: 2rem;
+}
+
+#index,
+#about {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 5%;
+    margin-left: 3rem;
 }
 
 form h2 {
