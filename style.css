@@ -13,13 +13,14 @@ body {
 
 header {
     min-height: 10vh;
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
     align-items: center;
     gap: 1rem;
     background-color: #68A7AD;
-    position: sticky;
+    position: fixed;
 }
 
 .logo {
@@ -52,6 +53,7 @@ nav a {
     color: white;
     background-color: #7D9D9C;
     border: 1px solid #576F72;
+    background-color: #A2B29F;
     border-radius: 0.5rem;
     width: 8rem;
     height: 2.5rem;
@@ -62,12 +64,13 @@ a:hover {
     transform: scale(1.1) rotate(0deg);
     padding: 0.5rem;
     border: solid 2px #7F7C82;
-    background-color: #11324D;
+    background-color: #064420;
     
 }
 
 .active {
-    background-color: #064420;
+    
+    background-color: #11324D;
 }
 
 h1 {
@@ -82,10 +85,7 @@ h2 {
     text-align: center;
 }
 
-h3 {
-    padding-bottom: 4rem;
-    text-align: center;
-}
+
 
 section {
     display: flex;
