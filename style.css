@@ -59,8 +59,7 @@ nav a {
     height: 2.5rem;
 
 }
-
-a:hover {
+nav a:hover {
     transform: scale(1.1) rotate(0deg);
     padding: 0.5rem;
     border: solid 2px #7F7C82;
@@ -85,13 +84,18 @@ h2 {
     text-align: center;
 }
 
-
+h3{
+    padding-left: 1rem;
+}
 
 section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2rem;
+    margin: 2rem;
+    width: 100%;
+
+    justify-content: center;
 }
 
 main {
@@ -109,6 +113,7 @@ main img {
 
 p {
     padding-top: 0.2rem;
+    width: auto;
 }
 
 footer {
@@ -137,11 +142,14 @@ th {
 
 li {
     padding: 0.3rem;
+    padding-bottom: 0.5rem;
 }
 
 ol,
 ul {
-    padding: 1rem;
+    margin-left: 3rem;
+    margin-right:3rem;
+    margin-top: 0.5rem;
 }
 
 .espacio {
@@ -177,7 +185,6 @@ h5 {
 
 article {
     padding-top: 1rem;
-
 }
 
 article p {
@@ -201,6 +208,21 @@ article p {
     margin-left: 3rem;
 }
 
+#rules{
+width: fit-content;
+}
+
+#rules  h2, h3{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#rules article{
+    margin: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 2%;
+}
+
 form h2 {
     padding: 1rem;
 }
@@ -215,7 +237,7 @@ form select {
     border-radius: 5rem;
     border-color: white;
     font-size: large;
-    background-color: #f9811e;
+    background-color: #064420;
 }
 
 iframe {
