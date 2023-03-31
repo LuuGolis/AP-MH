@@ -94,8 +94,6 @@ section {
     justify-content: center;
     margin: 2rem;
     width: 100%;
-
-    justify-content: center;
 }
 
 main {
@@ -234,12 +232,31 @@ form select {
 
 .btn {
     padding: 1rem;
+    margin-left: 16rem;
+    margin-bottom: 1rem;
     border-radius: 5rem;
-    border-color: white;
+    border-color: #7882A4;
+    color: #F0EBE3;
+    width: 20rem;
     font-size: large;
     background-color: #064420;
 }
 
+.btn:hover{
+    transform: scale(1.1);
+    padding: 0.5rem;
+    padding: 1rem;
+    margin-left: 16rem;
+    margin-bottom: 1rem;
+    border-radius: 5rem;
+    border: solid 2px #7F7C82;
+    background-color: #00425a;
+    
+}
+#school{
+    width: 15rem;
+    margin-left: 2rem;
+}
 iframe {
     border-radius: 1rem;
     border: 2px solid white;
