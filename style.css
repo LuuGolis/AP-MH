@@ -59,16 +59,17 @@ nav a {
     height: 2.5rem;
 
 }
+
 nav a:hover {
     transform: scale(1.1) rotate(0deg);
     padding: 0.5rem;
     border: solid 2px #7F7C82;
     background-color: #064420;
-    
+
 }
 
 .active {
-    
+
     background-color: #11324D;
 }
 
@@ -84,7 +85,7 @@ h2 {
     text-align: center;
 }
 
-h3{
+h3 {
     padding-left: 1rem;
 }
 
@@ -106,7 +107,9 @@ main img {
     height: 200px;
     width: 200px;
     padding: 1rem;
+    margin-left: 2rem;
     border-radius: 50%;
+
 }
 
 p {
@@ -128,14 +131,17 @@ footer {
 
 table {
     table-layout: fixed;
+    border: 1px solid black
 }
 
 td {
-    padding: 0.8rem;
+    padding: 2rem;
+    border: 1px solid black
 }
 
 th {
     padding: 0.5rem;
+    border: 1px solid black
 }
 
 li {
@@ -146,7 +152,7 @@ li {
 ol,
 ul {
     margin-left: 3rem;
-    margin-right:3rem;
+    margin-right: 3rem;
     margin-top: 0.5rem;
 }
 
@@ -192,7 +198,7 @@ article p {
 }
 
 #index {
-    width: 100vh
+    width: 85%;
 }
 
 #about {
@@ -200,25 +206,42 @@ article p {
 }
 
 #index,
-#about {
+#about,
+#contact,
+#gameInfo {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    border-radius: 5%;
+    border-radius: 2rem;
+    margin-left: 3rem;
+}
+#gameInfo{
+    margin-right: 3rem;
+}
+
+#p{
+    padding-top: 2rem;
+}
+
+#contact p{
     margin-left: 3rem;
 }
 
-#rules{
-width: fit-content;
+#rules {
+    width: fit-content;
 }
 
-#rules  h2, h3{
+#rules h2{
     margin-top: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+#rules h3 {    
     margin-bottom: 0.5rem;
 }
 
-#rules article{
+#rules article {
     margin: 0.5rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    border-radius: 2%;
+    border-radius: 2rem;
 }
 
 form h2 {
@@ -242,7 +265,7 @@ form select {
     background-color: #064420;
 }
 
-.btn:hover{
+.btn:hover {
     transform: scale(1.1);
     padding: 0.5rem;
     padding: 1rem;
@@ -251,12 +274,19 @@ form select {
     border-radius: 5rem;
     border: solid 2px #7F7C82;
     background-color: #00425a;
-    
+
 }
-#school{
+
+#school {
     width: 15rem;
     margin-left: 2rem;
 }
+
+#info h2{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
 iframe {
     border-radius: 1rem;
     border: 2px solid white;
@@ -271,7 +301,9 @@ iframe {
     justify-content: center;
 }
 
-aside img {
-    height: 200px;
-    width: 200px;
+.mapas div{
+    border: solid 1px #576F72;
+    border-radius: 2rem;
+    margin: 0.3rem;
+    text-align: center;
 }
